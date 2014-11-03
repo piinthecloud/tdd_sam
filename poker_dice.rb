@@ -15,8 +15,8 @@ class Poker_Dice
 
 end
 
-d1 = Die.new.roll
-d2 = Die.new.roll
-d3 = Die.new.roll
-d4 = Die.new.roll
-d5 = Die.new.roll
+# d1 = Die.new.roll
+# d2 = Die.new.roll
+# d3 = Die.new.roll
+# d4 = Die.new.roll
+# d5 = Die.new.roll
