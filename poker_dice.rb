@@ -1,6 +1,6 @@
 class Poker_Dice
 
-  FACES = %w[ A ]
+  FACES = %w[ 9 T J Q K A ]
 
   attr_reader :top_face
 
@@ -9,7 +9,7 @@ class Poker_Dice
   end
 
   def roll
-    @top_face = FACES[ rand(0)]
+    @top_face = FACES[rand(0..5)]
   end
 
 
