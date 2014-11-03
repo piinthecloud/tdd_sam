@@ -11,9 +11,20 @@ class Poker_Dice
   def roll
     @top_face = FACES[rand(0..5)]
   end
-
-
 end
+
+class Hand < Poker_Dice
+
+  def roll_hand
+    hand = []
+    5.times do
+      hand << Poker_Dice.new
+    end
+    hand
+  end
+end
+
+
 
 # d1 = Die.new.roll
 # d2 = Die.new.roll
