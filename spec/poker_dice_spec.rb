@@ -7,7 +7,7 @@ describe Poker_Dice do
   end
 
   it "returns an array with 5 items" do
-    expect(Poker_Dice.new.roll_hand.count).to eq 5
+    expect(Hand.new.roll_hand.count).to eq 5
   end
 
 
