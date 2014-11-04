@@ -11,7 +11,7 @@ describe Poker_Dice do
   end
 
   it "returns the score Five of a kind" do
-    expect(Hand.new.score(%w[A A A A A])).to eq "Five of a kind"
+    expect(Hand.new.score(%w[A A A A A])).to eq "A"=>3
   end
 
 
