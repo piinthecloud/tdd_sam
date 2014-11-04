@@ -22,6 +22,17 @@ class Hand < Poker_Dice
     end
     hand
   end
+
+  def score(roll_hand)
+    score = nil
+    if roll_hand == %w[A A A A A]
+      score = "Five of a kind"
+    end
+
+
+  end
+
+
 end
 
 

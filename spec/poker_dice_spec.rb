@@ -10,9 +10,10 @@ describe Poker_Dice do
     expect(Hand.new.roll_hand.count).to eq 5
   end
 
-  it "returns the score Pair" do
-    expect(Hand.new.score).to eq "Pair"
+  it "returns the score Five of a kind" do
+    expect(Hand.new.score(%w[A A A A A])).to eq "Five of a kind"
   end
+
 
 
 
